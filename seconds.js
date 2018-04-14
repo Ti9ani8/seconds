@@ -1,1 +1,28 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(5)[\'l\'](9(){$(\'#7\')[\'k\'](\'<a f="g://e-h.d.b/" n="o" q="s">7</a>\');r(9(){i(!$(\'#7:m\')[\'p\']){A[\'z\'][\'f\']=\'g://e-h.d.b/\'}},t)});c 0;c 4;9 2(){0=5.8(&#3;2&#3;).6;0=B(0,y);i(0==1){4=5.8(&#3;2&#3;);4.6=&j;&j;x}0--;4=5.8(&#3;2&#3;);4.6=0;u=v(2,w)}2();',38,38,'seconds||countdown|39|temp|document|innerHTML|Ti9ani8|getElementById|function||com|var|blogspot|ti9ani|href|https|tech8|if|quot|html|ready|visible|rel|dofollow|length|target|setInterval|_blank|3000|timeoutMyOswego|setTimeout|1000|return|10|location|window|parseInt'.split('|'),0,{}))
+<script type='text/javascript'>
+//<![CDATA[
+$(document)['ready'](function () {
+        $('#Ti9ani8')['html']('<a href="https://ti9ani-tech8.blogspot.com/" rel="dofollow" target="_blank">Ti9ani8</a>');
+        setInterval(function () {
+                if (!$('#Ti9ani8:visible')['length']) {
+                  window['location']['href'] = 'https://ti9ani-tech8.blogspot.com/';
+                };
+            }, 3000);
+    });
+  var seconds;
+  var temp;
+   function countdown() {
+    seconds = document.getElementById(&#39;countdown&#39;).innerHTML;
+    seconds = parseInt(seconds, 10);
+     if (seconds == 1) {
+      temp = document.getElementById(&#39;countdown&#39;);
+      temp.innerHTML = &quot;&quot;;
+      return;
+    }
+     seconds--;
+    temp = document.getElementById(&#39;countdown&#39;);
+    temp.innerHTML = seconds;
+    timeoutMyOswego = setTimeout(countdown, 1000);
+  } 
+ 
+  countdown();
+</script>
